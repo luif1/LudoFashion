@@ -1,0 +1,17 @@
+:root {
+    --color-primaria: #F464C3;
+    --color-secundaria: #301c32;
+    --color-tres: #FDACE0;
+    --branco: white;
+    --preto: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--color-primaria);
+}
