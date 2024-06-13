@@ -76,11 +76,11 @@ nav a:first-child {
 #banner {
 
     width: 100%;
-    background-image: url("../imgs/banner.jpeg");
+    background-image: url("../imgs/ludobanner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    right: 400px;
-
+    height: 400px;
+    position: relative;
 }
 
 #txt-banner {
@@ -97,7 +97,7 @@ nav a:first-child {
 
 }
 
-.card-conteiner {
+.card-container {
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -116,7 +116,7 @@ nav a:first-child {
     border-radius: 8px 8px 0 0;
 }
 
-.card-conteiner {
+.card-content {
 
     color: var(--branco);
     padding: 1rem;
