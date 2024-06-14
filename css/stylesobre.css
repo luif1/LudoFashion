@@ -1,0 +1,124 @@
+:root {
+
+    --color-primaria: #F464C3;
+    --color-secundaria: #301c32;
+    --color-tres: #FDACE0;
+    --branco: white;
+    --preto: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: var(--color-primaria);
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+#form-buscar {
+
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#buscar {
+
+    flex-grow: 0.75;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#btn-buscar {
+
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 11.5%;
+    cursor: pointer;
+
+}
+
+.icon-link {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+nav {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: var(--color-tres);
+    padding: 0.5rem;
+
+}
+
+nav a:first-child {
+
+    border-right: 1px solid var(--preto);
+
+}
+
+#banner {
+
+    width: 100%;
+    background-image: url("../imgs/ludobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+#txt-banner {
+
+    position: absolute;
+    top: 10%;
+    right: 10%;
+
+}
+
+.conteudo h1 {
+
+    text-align: center;
+
+}
+
+.card-container {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.card {
+
+    border: 1px solid var(--color-secundaria);
+    border-radius: 8px;
+    background-color: var(--color-secundaria);
+}
+
+.card-img img {
+
+    border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+
+    color: var(--branco);
+    padding: 1rem;
+    text-align: center;
+}
