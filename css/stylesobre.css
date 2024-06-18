@@ -19,6 +19,7 @@ header {
     display: flex;
     padding: 1rem;
     align-items: center;
+    color: azure;
 }
 
 #form-buscar {
@@ -121,4 +122,45 @@ nav a:first-child {
     color: var(--branco);
     padding: 1rem;
     text-align: center;
+}
+
+.texto {
+    margin: 60px 40px;
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+}
+
+.texto p {
+    margin-bottom: 20px;
+}
+
+.texto h1 {
+    margin-bottom: 30px;
+}
+
+.divi-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#title {
+
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+
+#sobre {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
