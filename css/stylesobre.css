@@ -225,5 +225,13 @@ nav a:first-child {
 
     justify-content: center;
     display: flex;
+    margin: 25px;
+
+}
+
+.add-categ {
+
+    text-align: center;
+    grid-column: 2;
 
 }
