@@ -188,7 +188,7 @@ nav a:first-child {
     justify-content: center;
     align-items: center;
 }
-   
+
 .btn-fale {
 
     background-color: #F464C3;
@@ -239,18 +239,7 @@ nav a:first-child {
 
 }
 
-.login-tela {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F464C3;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px;
-    border-radius: 15px;
-    color: white;
-    margin: 30px;
-}
+
 .cadastro-tela {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -265,12 +254,15 @@ nav a:first-child {
     color: white;
     margin: 30px;
 }
-.box input{
+
+.box input {
     margin-bottom: 100px;
 }
-.box .data{
+
+.box .data {
     width: 221px;
 }
+
 input {
 
     padding: 15px;
@@ -281,6 +273,25 @@ input {
 
 }
 
+.login-tela {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F464C3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+    margin: 30px;
+}
+
+.nome-tela {
+    text-align: center;
+    color: black;
+}
+
 .botao-login {
 
     border: none;
@@ -289,6 +300,21 @@ input {
     background-color: black;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.opcao {
+
+    text-align: center;
+    color: black;
+
+}
+
+.imagem-logo {
+
+    align-items: center;
+
     cursor: pointer;
 
 }
