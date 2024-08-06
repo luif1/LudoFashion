@@ -9,38 +9,75 @@
 </head>
 
 <body>
-    <header>
-        <a href="">LudoFashion</a>
-        <form action="" id="form-buscar">
-            <input type="search" name="buscar" id="buscar" placeholder="buscar...">
-            <button type="submit" id="btn-buscar">
-                <img src="./imgs/lupa.png" alt="" width="30px"></button>
+    <div class="container">
+
+        <h1 class="title">Cadastrar</h1>
+
+        <form action="#">
+
+            <div class="input-group">
+
+
+                <div class="input-box">
+                    <label for="firstname">Nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" type="cpf" name="cpf" placeholder="Digite seu CPF" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="date">Data de Nascimento</label>
+                    <input id="date" type="date" name="date" placeholder="Data de nascimento" required>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="login-button">
+
+                <button>Entrar</button>
+
+                <a href="../views/Login.html">Já tem uma conta cadastrada?</a>
+
+                <h1 class="text2">OU</h1>
+
+            </div>
+
+            
+            <div class="image-icon1">
+
+                <img src="../imgs/google.png" alt="" width="30px">
+                <img src="../imgs/face.png" alt="" width="30px">
+
+            </div>
+
+
+
+
         </form>
-    </header>
 
-    <nav></nav>
-
-    <div class="cadastro-tela">
-
-
-        <div class="box">
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Senha">
-        </div>
-
-        <div class="box">
-            <input type="name" placeholder="Nome">
-            <input type="" placeholder="CPF">
-        </div>
-
-        <div class="box">
-            <input type="date" placeholder="Data de nascimento" class="data">
-            <input type="number" placeholder="Número de telefone">
-        </div>
-        
-        <button class="botao-login">Cadastrar</button>
-   
     </div>
+
 
 </body>
 

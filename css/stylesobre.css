@@ -239,22 +239,6 @@ nav a:first-child {
 
 }
 
-
-.cadastro-tela {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F464C3;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px;
-    border-radius: 15px;
-    color: white;
-    margin: 30px;
-}
-
 .box input {
     margin-bottom: 100px;
 }
@@ -282,19 +266,20 @@ input {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 50px;
-    border-radius: 15px;
+    border-radius: 50px;
     color: white;
     margin: 30px;
     flex-direction: column;
     display: flex;
     gap: 20px;
+    box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.77);
 
 }
 
 .nome-tela {
     text-align: center;
     color: black;
-  
+
 
 }
 
@@ -308,8 +293,8 @@ input {
     border-radius: 10px;
     cursor: pointer;
     margin-left: 60px;
-    
-    
+
+
 
 }
 
@@ -331,5 +316,83 @@ input {
 }
 
 .ajuda {
-    margin-left: 50px;
+    margin-left: 47px;
+}
+
+.login-button button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 60%;
+
+}
+
+.login-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.input-box input {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: solid 0.5px;
+}
+
+.input-box label {
+    color: black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F464C3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 50px;
+    color: white;
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.77);
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.text2 {
+    color: black;
+}
+
+.image-icon1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+
 }
